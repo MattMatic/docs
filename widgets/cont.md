@@ -10,7 +10,7 @@ The containers are essentially a **basic object** with layout and automatic sizi
 
 
 ## Parts and Styles
-The containers has only a main style called `LV_CONT_PART_MAIN` and it can use all the typicaly bacground properties properties and padding for layout auto sizing.
+The containers has only a main style called `LV_CONT_PART_MAIN` and it can use all the typicaly background properties properties and padding for layout auto sizing.
 
 ## Usage
 
@@ -33,7 +33,7 @@ If here are children with different height in a row align their top edge.
 - **LV_LAYOUT_GRID** - Similar to `LV_LAYOUT_PRETTY` but not divide horizontal space equally just let `pad_left/right` on the edges and `pad_inner` space between the elements.
 
 ### Autofit
-Container have an autofit feature which can automatically change the size of the container according to its children and/or its parent. The following options exist:
+Containers have an autofit feature which can automatically change the size of the container according to its children and/or its parent. The following options exist:
 - **LV_FIT_NONE** - Do not change the size automatically.
 - **LV_FIT_TIGHT** - Shrink-wrap the container around all of its children, while keeping `pad_top/bottom/left/right` space on the edges.
 - **LV_FIT_PARENT** - Set the size to the parent's size minus `pad_top/bottom/left/right` (from the parent's style) space.
